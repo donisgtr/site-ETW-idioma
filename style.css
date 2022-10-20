@@ -134,6 +134,17 @@ section .content p {
     -webkit-animation-iteration-count: infinite;
 }
 
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(.9);
+        opacity: .9;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
 .button {
     background: var(--primary-color);
 
@@ -171,7 +182,7 @@ section .content p {
         transform: scale(1);
         opacity: 1;
     }
-  }
+}
 
 
 .button:hover { /* quando o mouse passar em cima, muda a cor do botão*/
