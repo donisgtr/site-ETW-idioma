@@ -10,8 +10,8 @@
     --hue: 170;
     --primary-color: hsl(var(--hue), 100%, 26%);
     --headline: hsl(210, 11%, 15%);
+    --headline_title: hsl(39, 100%, 97%);
     --paragraph: hsl(210, 9%, 31%);
-    
     --brand-beige: hsl(39, 100%, 97%);
     --brand-light: hsl(calc(var(--hue) - 22), 23%, 89%);
     --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
@@ -87,7 +87,7 @@ section header h2 {
 
 section header h1 {
     font-size: 3.4rem;
-    color: var(--headline);
+    color: var(--headline_title);
     line-height: 130%;
 
     margin-bottom: 2.4rem;
@@ -269,6 +269,7 @@ body.menu-expanded .menu {
     line-height: 2.3rem;
     text-transform: uppercase;
     text-decoration: none; /* remover o sublinhado devido ao link */
+    
 
     color: var(--primary-color);
 
@@ -312,13 +313,15 @@ body.menu-expanded button path {
     content: '';
     width: 100%;
     height: calc(76% + var(--nav-height)); /* a altura deve chegar até o meio da caixa stats */
-    background-color: var(--brand-light);
+    background-color: rgb(0, 42, 80);
     display: block; /* aceita propriedades de largura e altura */
-
     position: absolute; /* o conteúdo da caixa fica sobreposto */
     top: 0;
     left: 0;
     z-index: -1; /* jogar a caixa para trás */
+
+    /* background-image: url(assets/bac2.jpg);
+    background-size: cover; */
 }
 
 #home .button {
@@ -329,7 +332,7 @@ body.menu-expanded button path {
     font-size: 1.8rem;
     line-height: 150%;
     font-weight: 400;
-    color: var(--paragraph);
+    color: var(--headline_title);
 
     margin-bottom: 3.2rem;
 }
