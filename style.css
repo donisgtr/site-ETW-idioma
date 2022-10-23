@@ -369,7 +369,7 @@ body.menu-expanded button path {
 }
 
 #homeimg img{ /* a imagem possui um espaço em branco entre a mulher e a base que deve desaparecer */
-    margin-top: -30px;
+    margin-top: -50px;
     width: 42rem;
     display: initial; /* colar a imagem na div */
     margin-inline: 0;
