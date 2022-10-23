@@ -18,10 +18,8 @@
     --brand-dark: hsl(182, 92%, 30%);
     --laranja-dark: hsl(22, 100%, 59%);
     --laranja-light: hsl(22, 73%, 38%);
-    --bg-light: hsl(180, 14%, 97%);
-    
+    --bg-light: hsl(180, 14%, 97%);    
     font-size: 62.5%; /* 1rem = 10px */
-
     --nav-height: 7.2rem;
 }
 
