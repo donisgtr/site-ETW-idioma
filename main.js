@@ -85,7 +85,9 @@ function openMenu() { // a função será executada quando clicar nos botões de
 
 function closeMenu() {
     document.body.classList.remove('menu-expanded')
+    
 }
+
 
 ScrollReveal({ // quando iniciar o scroll, os elementos serão revelados de cima para baixo vagarosamente
     origin: 'top', // originar de cima para baixo

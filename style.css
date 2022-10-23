@@ -527,7 +527,30 @@ footer .social-links {
     opacity: 1;
     visibility: visible;
     transform: translateY(0); /* retornar à posição inicial */
+
 }
+
+nav#navigation .menu a.buttondoaluno:hover {
+    background-color: var(--laranja-light);
+    border: none;
+    color: white;
+}
+
+nav#navigation .menu a.buttondoaluno {
+    background: var(--laranja-dark);
+    border-radius: 4rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--brand-beige);
+    display: inline-block;
+    padding: 16px 32px;
+    margin-top: 4.8rem;
+    margin-bottom: 8rem;
+}
+
 
 /*=== RESPONSIVO ========================*/
 
@@ -623,11 +646,10 @@ footer .social-links {
     }
 
     nav#navigation .menu a.buttondoaluno:hover {
-        background-color: var(--laranja-dark);
+        background-color: var(--laranja-light);
         border: none;
         color: white;
     }
-
     
     nav#navigation .menu a.buttondoaluno {
         display: flex;
@@ -635,7 +657,7 @@ footer .social-links {
         align-items: center;
         padding: 1rem 2.4rem;
         text-decoration: none; /* remover o sublinhado devido ao link */
-        background-color: #ff6106;
+        background-color: var(--laranja-dark);
 
         border: none;
         border-radius: 4rem;
