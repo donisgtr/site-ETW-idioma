@@ -368,6 +368,13 @@ body.menu-expanded button path {
     object-position: 0 2rem; /* o conteúdo dentro da caixa img é o objeto imagem */
 }
 
+#homeimg img{ /* a imagem possui um espaço em branco entre a mulher e a base que deve desaparecer */
+    width: 42rem;
+    display: initial; /* colar a imagem na div */
+    margin-inline: 0;
+    object-position: 0 0rem; /* o conteúdo dentro da caixa img é o objeto imagem */
+}
+
 #home .stats {
     width: 100%; /* ajustando o transbordamento, 100% da caixa wrapper */
     padding-block: 4rem;
@@ -661,21 +668,22 @@ footer .social-links {
         opacity: 1;
         font-weight: 700;
     }
-    /* tirar risca */
-    nav#navigation .menu li a::after { /* criando barra abaixo dos elementos */
+    /* tirar risca 
+    nav#navigation .menu li a::after { criando barra abaixo dos elementos 
         content: '';
         width: 0%;
         height: 2px;
         background-color: var(--primary-color);
 
         position: relative;
-        bottom: -2rem; /* descer a barra para que fique colada ao bottom do menu */
-        left: -0.5rem; /* recuar a barra */
+        bottom: -2rem; descer a barra para que fique colada ao bottom do menu 
+        left: -0.5rem; recuar a barra 
 
         display: block;
 
         transition: width 0.2s;
     }
+    */
 
     nav#navigation.scroll .menu li a::after {
         background-color: white;
