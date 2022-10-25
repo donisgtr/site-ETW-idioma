@@ -88,7 +88,7 @@ section header h1 {
     color: var(--headline_title);
     line-height: 130%;
 
-    margin-top: -10.0rem;
+    margin-top: 0;
     margin-bottom: 2.4rem;
 }
 
@@ -353,6 +353,16 @@ body.menu-expanded button path {
     margin-inline: auto;
 }
 
+
+#homeimg img { /* a imagem possui um espaço em branco entre a mulher e a base que deve desaparecer */
+    margin-top: -5rem !important;
+    margin-bottom: 2rem !important;
+    width: 70rem !important;
+    object-position: 0 0rem !important;
+
+}
+
+
 #home p {
     font-size: 1.8rem;
     line-height: 150%;
@@ -369,15 +379,7 @@ body.menu-expanded button path {
     object-position: 0 2rem; /* o conteúdo dentro da caixa img é o objeto imagem */
 }
 
-#homeimg img{ /* a imagem possui um espaço em branco entre a mulher e a base que deve desaparecer */
-    
-    margin-top: -20.0rem;
-    margin-right: -20.0rem;
-    width: 42rem;
-    display: initial; /* colar a imagem na div */
-    margin-inline: 0;
-    object-position: 0 0rem; /* o conteúdo dentro da caixa img é o objeto imagem */
-}
+
 
 #home .stats {
     width: 100%; /* ajustando o transbordamento, 100% da caixa wrapper */
@@ -711,8 +713,25 @@ nav#navigation .menu a.buttondoaluno {
     }
     */
 
+    #homeimg img { /* a imagem possui um espaço em branco entre a mulher e a base que deve desaparecer */
+    
+        margin-top: -15rem;
+        width: 100% !important;
+        margin-left: -5rem !important;
+        display: initial; /* colar a imagem na div */
+        margin-inline: 0;
+        object-position: 0 0rem; /* o conteúdo dentro da caixa img é o objeto imagem */
+    }
+
     nav#navigation.scroll .menu li a::after {
         background-color: white;
+    }
+
+    section header h1 {
+        font-size: 3.4rem;
+        color: var(--headline_title);
+        line-height: 130%;
+        margin-bottom: 2.4rem;
     }
 
     nav#navigation .menu li a.active::after,
@@ -783,19 +802,16 @@ nav#navigation .menu a.buttondoaluno {
 
     #home img {
         width: 42rem;
-        margin-left: -50px;
     }
 
     section header h1 {
         font-size: 3.4rem;
         color: var(--headline_title);
         line-height: 130%;
-    
-        margin-top: -14.0rem;
         margin-bottom: 2.4rem;
-        
     }
 
+    
 
     /*=== SERVICES ==========================*/
 
