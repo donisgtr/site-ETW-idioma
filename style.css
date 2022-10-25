@@ -88,7 +88,7 @@ section header h1 {
     color: var(--headline_title);
     line-height: 130%;
 
-    margin-top: -7.0rem;
+    margin-top: -10.0rem;
     margin-bottom: 2.4rem;
 }
 
@@ -371,7 +371,8 @@ body.menu-expanded button path {
 
 #homeimg img{ /* a imagem possui um espaço em branco entre a mulher e a base que deve desaparecer */
     
-    margin-top: -15.0rem;
+    margin-top: -20.0rem;
+    margin-right: -20.0rem;
     width: 42rem;
     display: initial; /* colar a imagem na div */
     margin-inline: 0;
@@ -782,6 +783,7 @@ nav#navigation .menu a.buttondoaluno {
 
     #home img {
         width: 42rem;
+        margin-left: -50px;
     }
 
     section header h1 {
@@ -789,8 +791,9 @@ nav#navigation .menu a.buttondoaluno {
         color: var(--headline_title);
         line-height: 130%;
     
-        margin-top: -10.0rem;
+        margin-top: -14.0rem;
         margin-bottom: 2.4rem;
+        
     }
 
 
