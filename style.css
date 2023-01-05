@@ -415,6 +415,13 @@ body.menu-expanded button path {
 
 #services header h2 { 
     margin-bottom: 6rem;
+    text-transform: uppercase;
+/*     -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: rgb(0, 43, 83);
+    color: var(--headline);
+    margin-inline: auto; */
+    text-align: center;
+    
 }
 
 #services .cards {
@@ -429,8 +436,10 @@ body.menu-expanded button path {
 
     background: white;
 
-    border: 1px solid var(--brand-light);
     border-radius: 0.6rem;
+    border: 1px solid var(--brand-light); /* sem o circulo  = var(--brand-light) or --headline*/
+    border-radius: 0.6rem;
+    color: var(--brand-dark);
 }
 
 #services .card h3 {
@@ -583,7 +592,7 @@ nav#navigation .menu a.buttondoaluno {
     }
 
     section {
-        padding-block: 16rem;
+        padding-block: 7rem;
     }
 
     section header h2 {
@@ -816,7 +825,7 @@ nav#navigation .menu a.buttondoaluno {
     /*=== SERVICES ==========================*/
 
     #services h2 {
-        width: 47rem;
+        width: 100rem;
         margin-inline: auto;
     }
 
