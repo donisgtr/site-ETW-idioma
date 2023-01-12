@@ -8,8 +8,9 @@
 
 :root {
     --hue: 170;
-    --primary-color: hsl(182, 93%, 40%);
+    --primary-color: rgb(204,0,1,255);
     --headline: hsl(210, 11%, 15%);
+    --background: rgb(0, 42, 80);
     --headline_title: hsl(39, 100%, 97%);
     --paragraph: hsl(210, 9%, 31%);
     --brand-beige: hsl(39, 100%, 97%);
@@ -17,9 +18,10 @@
     --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
     --brand-dark: hsl(182, 92%, 30%);
     --laranja-dark: hsl(22, 100%, 59%);
-    --laranja-light: hsl(22, 73%, 38%);
+    --laranja-light: rgb(204,0,1,255);
     --bg-light: hsl(180, 14%, 97%);    
     font-size: 62.5%; /* 1rem = 10px */
+    --bloco-depois-foto: white;
     --nav-height: 7.2rem;
 }
 
@@ -52,6 +54,15 @@ body {
     padding-inline: 2.4rem;
 }
 
+.vimeo {
+
+
+    width: 100%;
+    height: 100%;
+
+      }
+
+
 ul {
     list-style: none;
 }
@@ -80,7 +91,7 @@ section header h2 {
     font-size: 3rem;
     line-height: 3.9rem;
 
-    color: var(--headline);
+    color: var(--background);
 }
 
 section header h1 {
@@ -338,7 +349,7 @@ body.menu-expanded button path {
     content: '';
     width: 100%;
     height: calc(76% + var(--nav-height)); /* a altura deve chegar até o meio da caixa stats */
-    background-color: rgb(0, 42, 80);
+    background-color: var(--background);
     display: block; /* aceita propriedades de largura e altura */
     position: absolute; /* o conteúdo da caixa fica sobreposto */
     top: 0;
@@ -386,7 +397,7 @@ body.menu-expanded button path {
     padding-block: 4rem;
     margin-inline: auto;
 
-    background-color: var(--brand-beige);
+    background-color: var(--primary-color);
     border: 1px solid var(--brand-light);
     border-radius: 0.6rem;
 
@@ -398,7 +409,7 @@ body.menu-expanded button path {
 
 #home .stat h3 {
     font-size: 4.8rem;
-    color: var(--headline);
+    color: var(--bloco-depois-foto);
     line-height: 130%;
 
     margin-bottom: 0.4rem;
@@ -406,7 +417,7 @@ body.menu-expanded button path {
 
 #home .stat p {
     margin: 0;
-    color: var(--primary-color);
+    color: var(--bloco-depois-foto);
     font-size: 1.6rem;
     line-height: 150%;
 }
@@ -424,7 +435,15 @@ body.menu-expanded button path {
     
 }
 
+.iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+
 #services .cards {
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
@@ -545,13 +564,13 @@ footer .social-links {
 }
 
 nav#navigation .menu a.buttondoaluno:hover {
-    background-color: var(--laranja-light);
+    background-color: var(--);
     border: none;
     color: white;
 }
 
 nav#navigation .menu a.buttondoaluno {
-    background: var(--laranja-dark);
+    background: var(--background);
     border-radius: 4rem;
     font-weight: 700;
     font-size: 1.8rem;
@@ -629,7 +648,7 @@ nav#navigation .menu a.buttondoaluno {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 60%;
+        width: 40%;
     }
 
     nav#navigation .menu ul:nth-child(1) {
@@ -671,9 +690,9 @@ nav#navigation .menu a.buttondoaluno {
         align-items: center;
         padding: 1rem 2.4rem;
         text-decoration: none; /* remover o sublinhado devido ao link */
-        background-color: var(--laranja-dark);
+        background-color: var(--background);
 
-        border: none;
+        border: 2px solid var(--primary-color);
         border-radius: 4rem;
 
         color: var(--brand-beige);
