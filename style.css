@@ -136,6 +136,7 @@ section .content p {
 }
 
 
+
 .butoncomefeito {
     transition: background 200ms; /* duração da transição de cor quando o mouse passar em cima do botão */
 
@@ -408,7 +409,7 @@ body.menu-expanded button path {
 }
 
 #home .stat h3 {
-    font-size: 4.8rem;
+    font-size: 4.0rem;
     color: var(--bloco-depois-foto);
     line-height: 130%;
 
@@ -464,6 +465,14 @@ body.menu-expanded button path {
 #services .card h3 {
     margin-block: 1.6rem;
 }
+
+.buttonvimeo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -5rem;
+    margin-top: 3rem;
+    }
 
 /*=== ABOUT ============================*/
 
@@ -840,6 +849,7 @@ nav#navigation .menu a.buttondoaluno {
     }
 
     
+
 
     /*=== SERVICES ==========================*/
 
