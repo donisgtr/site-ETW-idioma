@@ -12,7 +12,7 @@
     --headline: hsl(210, 11%, 15%);
     --background: rgb(0, 42, 80);
     --headline_title: hsl(39, 100%, 97%);
-    --paragraph: hsl(210, 9%, 31%);
+    --paragraph: hsl(210, 6%, 25%);
     --brand-beige: hsl(39, 100%, 97%);
     --brand-light: hsl(calc(var(--hue) - 22), 23%, 89%);
     --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
@@ -106,6 +106,14 @@ section header h1 {
 section .content p {
     font-weight: 400;
     font-size: 1.6rem;
+    line-height: 150%;
+
+    color: var(--paragraph);
+}
+
+section .content ul {
+    font-weight: 400;
+    font-size: 1.4rem;
     line-height: 150%;
 
     color: var(--paragraph);
@@ -436,7 +444,7 @@ body.menu-expanded button path {
     -webkit-text-stroke-color: rgb(0, 43, 83);
     color: var(--headline);
     margin-inline: auto; */
-    text-align: center;
+    text-align: left;
     
 }
 
@@ -513,16 +521,31 @@ body.menu-expanded button path {
 
 #about {
     text-align: left;
-    background-color: var(--brand-beige);
+    background-color: var(--background);
 }
 
 #about header h2 {
     margin-bottom: 2.4rem;
+    color: var(--headline_title);
+}
+
+#about header h4 {
+    color: var(--headline_title);
+}
+
+#about header h2 {
+    margin-bottom: 2.4rem;
+    color: var(--headline_title);
 }
 
 #about .content p {
     margin-top: 2.4rem;
     margin-bottom: 6rem;
+    color: var(--headline_title);
+}
+
+#about .content ul {
+    color: var(--headline_title);
 }
 
 /*=== CONTACT ===========================*/
@@ -650,9 +673,13 @@ nav#navigation .menu a.buttondoaluno {
         grid-area: A;
     }
     
-    .col-a h2 {
+    .EUA h2 {
         text-align: center;
-    }    
+    } 
+
+    .EUA h4 {
+        text-align: center;
+    }   
 
     .col-b {
         grid-area: B;
