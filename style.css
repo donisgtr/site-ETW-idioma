@@ -111,6 +111,10 @@ section .content p {
     color: var(--paragraph);
 }
 
+section .content ul {
+    list-style: disc;
+}
+
 .button {
     background: var(--primary-color);
 
@@ -462,6 +466,37 @@ body.menu-expanded button path {
     color: var(--brand-dark);
 }
 
+.testeingles {
+    padding: 2.4rem;
+    text-align: left;
+
+    background: white;
+
+    border-radius: 0.6rem;
+    border: 1px solid var(--brand-light); /* sem o circulo  = var(--brand-light) or --headline*/
+    border-radius: 0.6rem;
+    color: red;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testeingles h3 {
+    font-size: 3.4rem;
+    text-align: center;
+}
+
+.testeingles p {
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 150%;
+    font-family: 'DM Sans';
+    color: var(--paragraph);
+}
+
+
 #services .card h3 {
     margin-block: 1.6rem;
 }
@@ -472,7 +507,7 @@ body.menu-expanded button path {
     justify-content: center;
     margin-bottom: -5rem;
     margin-top: 3rem;
-    }
+}
 
 /*=== ABOUT ============================*/
 
@@ -614,6 +649,10 @@ nav#navigation .menu a.buttondoaluno {
     .col-a {
         grid-area: A;
     }
+    
+    .col-a h2 {
+        text-align: center;
+    }    
 
     .col-b {
         grid-area: B;
