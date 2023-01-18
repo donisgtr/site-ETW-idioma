@@ -361,7 +361,7 @@ body.menu-expanded button path {
 #home::before { /* pseudo-element - adiciona uma tag antes do conteúdo do header (fora do wrapper) */
     content: '';
     width: 100%;
-    height: calc(76% + var(--nav-height)); /* a altura deve chegar até o meio da caixa stats */
+    height: calc(150% + var(--nav-height)); /* a altura deve chegar até o meio da caixa stats */
     background-color: var(--background);
     display: block; /* aceita propriedades de largura e altura */
     position: absolute; /* o conteúdo da caixa fica sobreposto */
@@ -524,9 +524,11 @@ body.menu-expanded button path {
 }
 
 .certificado-h3 {
-    margin-right: 4.5rem;
+    
     font-size: 2.2rem;
-    text-align: justify;
+    margin-bottom: 4.5rem;
+    text-align: center;
+
 }
 
 /*=== ABOUT ============================*/
@@ -870,7 +872,7 @@ nav#navigation .menu a.buttondoaluno {
     /*=== HOME ==============================*/
 
     #home::before {
-        height: calc(140% - var(--nav-height));
+        height: calc(125% - var(--nav-height));
     }
 
     #home {
@@ -972,11 +974,12 @@ nav#navigation .menu a.buttondoaluno {
     #contact .wrapper {
         grid-template-columns: 50rem 1fr;
         grid-template-areas: 'A B';
+        gap: 3.0rem;
     }
 
-    #contact h2 {
-        width: 40.4rem;
-    }
+    /*#contact h2 {
+        width: 40.4rem; 
+    }*/
 
     /*=== FOOTER ============================*/
 
