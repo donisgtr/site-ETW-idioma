@@ -517,6 +517,18 @@ body.menu-expanded button path {
     margin-top: 3rem;
 }
 
+.certificado {
+    margin-bottom: -2rem;
+    font-size: 3.3rem;
+    text-align: center;
+}
+
+.certificado-h3 {
+    margin-right: 4.5rem;
+    font-size: 2.2rem;
+    text-align: justify;
+}
+
 /*=== ABOUT ============================*/
 
 #about {
@@ -866,7 +878,7 @@ nav#navigation .menu a.buttondoaluno {
     }
 
     #home .wrapper {
-        grid-template-columns: 60.5rem 1fr;
+        grid-template-columns: 70.5rem 1fr;
         grid-template-areas: 'A B' 'C C';
     }
 
@@ -954,7 +966,7 @@ nav#navigation .menu a.buttondoaluno {
     /*=== CONTACT ===========================*/
 
     #contact .wrapper {
-        grid-template-columns: 1fr 57.5rem;
+        grid-template-columns: 50rem 1fr;
         grid-template-areas: 'A B';
     }
 
