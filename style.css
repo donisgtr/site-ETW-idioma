@@ -946,6 +946,10 @@ nav#navigation .menu a.buttondoaluno {
         width: 30%;
         flex-grow: 1; /* cresça os cards o suficiente para preencher o espaço restante */
     }
+    .planos {
+        background-color: var(--background);
+    }
+
 
     /*=== ABOUT ============================*/
 
