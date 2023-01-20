@@ -967,6 +967,12 @@ nav#navigation .menu a.buttondoaluno {
         font-size: 4rem;
     }
 
+    .perguntas {
+        color: var(--background);
+        text-align: center;
+        font-size: 4rem;
+    }
+
 
     /*=== ABOUT ============================*/
 
