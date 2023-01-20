@@ -9,6 +9,7 @@
 :root {
     --hue: 170;
     --primary-color: rgb(204,0,1,255);
+    --plano-color:#08d428;
     --headline: hsl(210, 11%, 15%);
     --background: rgb(0, 42, 80);
     --headline_title: hsl(39, 100%, 97%);
@@ -159,6 +160,8 @@ section .content ul {
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
 }
+
+
 
 @keyframes pulse {
     0%, 100% {
@@ -942,14 +945,26 @@ nav#navigation .menu a.buttondoaluno {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 4rem;
+        justify-content: center;
     }
-
+    .personalizado{
+        margin-bottom: 23rem;
+    }
     #services .card {
         width: 30%;
-        flex-grow: 1; /* cresça os cards o suficiente para preencher o espaço restante */
+         /* cresça os cards o suficiente para preencher o espaço restante */
     }
     .planos {
-        background-color: var(--background);
+        background-color: var(--background)
+    }
+
+    .buttonplanos {
+        background-color: var(--plano-color)
+    }
+    .headerplanos {
+        color: white;
+        text-align: center;
+        font-size: 4rem;
     }
 
 
