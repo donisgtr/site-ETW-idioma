@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+   
 }
 
 :root {
@@ -26,7 +28,31 @@
     --nav-height: 7.2rem;
 }
 
+ 
+.gallery {
+    background: #EEE;
+}
+  
+  .gallery-cell {
+    width: 28%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
 
+  }
+  
+  .gallery-cell.is-selected {
+    background: #ED2;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+}
 
 html {
     /* caso não funcione no navegador, ativar em chrome://flags/#smooth-scrolling */
@@ -62,6 +88,14 @@ body {
     height: 100%;
 
       }
+    
+.vimeoaluno {
+    width: 360px;
+    height: 505px;
+    margin-right: 40px;
+    border: 1px solid var(--brand-light);
+    border-radius: 2rem;
+}
 
 
 ul {

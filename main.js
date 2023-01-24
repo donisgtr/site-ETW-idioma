@@ -105,3 +105,5 @@ ScrollReveal({ // quando iniciar o scroll, os elementos serão revelados de cima
     #about,
     #about header,
     #about .content`)
+
+
