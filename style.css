@@ -111,7 +111,7 @@ section {
 }
 
 section header h4 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 150%;
     letter-spacing: 0.08rem;
@@ -140,22 +140,24 @@ section header h1 {
 
 section .content p {
     font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 150%;
+
+    color: var(--paragraph);
+}
+
+.euacontent {
+    font-weight: 400;
     font-size: 1.6rem;
     line-height: 150%;
+    padding: 2rem;
 
-    color: var(--paragraph);
+    color: var(--headline_title);
 }
 
-section .content ul {
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 150%;
-
-    color: var(--paragraph);
-}
-
-section .content ul {
+.euacontent ul {
     list-style: disc;
+    text-align: left;
 }
 
 .button {
@@ -463,6 +465,7 @@ body.menu-expanded button path {
     line-height: 130%;
 
     margin-bottom: 0.4rem;
+    padding: 1rem;
 }
 
 #home .stat p {
@@ -470,6 +473,7 @@ body.menu-expanded button path {
     color: var(--bloco-depois-foto);
     font-size: 1.6rem;
     line-height: 150%;
+    padding: 1rem;
 }
 
 /*=== SERVICES ==========================*/
@@ -481,7 +485,7 @@ body.menu-expanded button path {
     -webkit-text-stroke-color: rgb(0, 43, 83);
     color: var(--headline);
     margin-inline: auto; */
-    text-align: left;
+    text-align: center;
     
 }
 
@@ -535,15 +539,14 @@ body.menu-expanded button path {
 
 .testeingles p {
     font-weight: 400;
-    font-size: 2.6rem;
+    font-size: 1.8rem;
     line-height: 150%;
-    font-family: 'DM Sans';
     color: var(--paragraph);
 }
 
 
 #services .card h3 {
-    margin-block: 1.6rem;
+    margin-block: 2rem;
 }
 
 .buttonvimeo {
@@ -571,27 +574,25 @@ body.menu-expanded button path {
 /*=== ABOUT ============================*/
 
 #about {
-    text-align: left;
+    text-align: center;
     background-color: var(--background);
 }
 
 #about header h2 {
-    margin-bottom: 2.4rem;
     color: var(--headline_title);
+    text-align: center;
 }
 
 #about header h4 {
     color: var(--headline_title);
+    text-align: center;
 }
 
 #about header h2 {
-    margin-bottom: 2.4rem;
     color: var(--headline_title);
 }
 
 #about .content p {
-    margin-top: 2.4rem;
-    margin-bottom: 6rem;
     color: var(--headline_title);
 }
 
@@ -723,14 +724,10 @@ nav#navigation .menu a.buttondoaluno {
     .col-a {
         grid-area: A;
     }
-    
-    .EUA h2 {
-        text-align: center;
-    } 
 
-    .EUA h4 {
+    .euacontent {
         text-align: center;
-    }   
+    }
 
     .col-b {
         grid-area: B;
@@ -741,7 +738,7 @@ nav#navigation .menu a.buttondoaluno {
     }
 
     section header h2 {
-        font-size: 4rem;
+        font-size: 3rem;
         line-height: 5.2rem;
     }
     
@@ -774,7 +771,7 @@ nav#navigation .menu a.buttondoaluno {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 40%;
+        width: 45%;
     }
 
     nav#navigation .menu ul:nth-child(1) {
